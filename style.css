@@ -1,0 +1,135 @@
+body {
+    background-color: rgb(102, 0, 39);
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+.navbar {
+    display: flex;
+    color: antiquewhite;
+    background-color: rgb(102, 0, 39);
+    padding: 20px 0px 20px 100px;
+    align-items: center;
+}
+
+.header-logo img {
+    width: 84px;
+    height: auto;
+    margin-right: auto;
+}
+
+.header-link {
+    display: flex;
+    margin-left: auto;
+    padding-right: 100px;
+}
+
+.header-link a {
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 18px;
+    padding: 10px;
+    
+}
+
+/* Hero */
+.hero {
+    display: flex;
+    color: #F9FAF8;
+    background-color:rgb(102, 0, 39) ;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+}
+
+.hero-1 {
+    flex-basis: 300px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 50px;
+}
+
+
+
+h1 {
+    font-size: 58px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin: 0;
+    
+}
+
+p {
+    opacity: 70%;
+}
+
+.hero button {
+    display: block;
+    text-align: center;
+    width: 110px;
+    border: none;
+    background: rgb(156, 156, 60);
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero-image img {
+    width: 450px;
+    height: auto;
+    border-style: dotted;
+    border-color: rgb(156, 156, 60);
+}
+
+/* Choose */
+
+.container-2 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(190, 166, 26);
+    padding-bottom: 30px;
+    align-items: center;
+    
+}
+
+.info img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border: 4px solid maroon;
+    border-radius: 15px;
+    margin: 5px 20px 0px 20px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.title {
+    font-size: 36px;
+    font-weight: 800;
+    background-color: rgb(190, 166, 26);
+    color:white;
+    padding-top: 20px;
+}
+
+.text {
+    font-size: 35px;
+    opacity: 60%;
+    color: black;
+}
